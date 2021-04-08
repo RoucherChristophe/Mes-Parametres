@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".CheckParametres">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,25 +12,31 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/btnWifi"
+            android:id="@+id/btnActualiser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualiser" />
+
+        <CheckBox
+            android:id="@+id/chbWifi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Parametres Wifi" />
 
-        <Button
-            android:id="@+id/btnAvion"
+        <CheckBox
+            android:id="@+id/chbAvion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Mode Avion" />
 
-        <Button
-            android:id="@+id/btnModeEco"
+        <CheckBox
+            android:id="@+id/chbModeEco"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Mode Economique" />
+            android:text="Mode  Economique" />
 
-        <Button
-            android:id="@+id/btnAppareilConnecte"
+        <CheckBox
+            android:id="@+id/chbAppareilConnecte"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Appareils Connectés" />
